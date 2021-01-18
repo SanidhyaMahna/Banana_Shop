@@ -1,0 +1,634 @@
+<html>
+<head>
+<title>E-Commerce Website </title>
+<link rel = "Stylesheet" href = "style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<div class = "top-nav-bar">
+<div class="search-box">
+  <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+  <i class="fa fa-times"id="close-btn" onclick="closemenu()"></i>
+<img = src="images/images.png" class="logo" alt="BANANA LOGO">
+<input type = "text" class = "form-control">
+<span class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i></span>
+</div>
+<div class="menu-bar">
+ <ul>
+ <li><a href="#"><i class="fa fa-shopping-cart"></i>Cart</a></li>
+ <li><a href="#">Sign-up</a></li>
+ <li><a href="#">Log In</a></li>
+</ul>
+
+</div>
+</div>
+<section class="header">
+<div class="side-menu" id="side-menu">
+<ul>
+    <li> On Sale<i class="fa fa-angle-right"></i>
+    <ul>
+    <li>Sub Menu-1</li>
+    <li>Sub Menu-1</li>
+    <li>Sub Menu-1</li>
+    <li>Sub Menu-1</li>
+    </ul>
+    </li>
+    <li> Mobiles<i class="fa fa-angle-right"></i>
+    <ul>
+    <li>Sub Menu-2</li>
+    <li>Sub Menu-2</li>
+    <li>Sub Menu-2</li>
+    <li>Sub Menu-2</li>
+    </ul>
+    </li>
+    <li> Computers<i class="fa fa-angle-right"></i>
+    <ul>
+    <li>Sub Menu-3</li>
+    <li>Sub Menu-3</li>
+    <li>Sub Menu-3</li>
+    <li>Sub Menu-3</li>
+    </ul>
+
+    </li>
+    <li> Books<i class="fa fa-angle-right"></i>
+    <ul>
+    <li>Sub Menu-4</li>
+    <li>Sub Menu-4</li>
+    <li>Sub Menu-4</li>
+    <li>Sub Menu-4</li>
+    </ul>
+    </li>
+    <li> Fitness<i class="fa fa-angle-right"></i>
+    <ul>
+    <li>Sub Menu-5</li>
+    <li>Sub Menu-5</li>
+    <li>Sub Menu-5</li>
+    <li>Sub Menu-5</li>
+    </ul>
+    </li>
+    <li> Baby Care<i class="fa fa-angle-right"></i>
+    <ul>
+    <li>Sub Menu-6</li>
+    <li>Sub Menu-6</li>
+    <li>Sub Menu-6</li>
+    <li>Sub Menu-6</li>
+    </ul>
+    </li>
+    <li> Magazines<i class="fa fa-angle-right"></i>
+    <ul>
+    <li>Sub Menu-7</li>
+    <li>Sub Menu-7</li>
+    <li>Sub Menu-7</li>
+    <li>Sub Menu-7</li>
+    </ul>
+    </li>
+    <li> Auto Accessories<i class="fa fa-angle-right"></i>
+    <ul>
+    <li>Sub Menu-8</li>
+    <li>Sub Menu-8</li>
+    <li>Sub Menu-8</li>
+    <li>Sub Menu-8</li>
+    </ul>
+    </li>
+    <li> Movies and Music<i class="fa fa-angle-right"></i>
+    <ul>
+    <li>Sub Menu-9</li>
+    <li>Sub Menu-9</li>
+    <li>Sub Menu-9</li>
+    <li>Sub Menu-9</li>
+    </ul>
+    </li>
+    <li> Gaming Consoles<i class="fa fa-angle-right"></i>
+    <ul>
+    <li>Sub Menu-10</li>
+    <li>Sub Menu-10</li>
+    <li>Sub Menu-10</li>
+    <li>Sub Menu-10</li>
+    </ul>
+    </li>
+    <li></i> Home and Kitchen<i class="fa fa-angle-right"></i>
+    <ul>
+    <li>Sub Menu-11</li>
+    <li>Sub Menu-11</li>
+    <li>Sub Menu-11</li>
+    <li>Sub Menu-11</li>
+    </ul>
+    </li>
+    <li> Furniture<i class="fa fa-angle-right"></i>
+    <ul>
+    <li>Sub Menu-12</li>
+    <li>Sub Menu-12</li>
+    <li>Sub Menu-12</li>
+    <li>Sub Menu-12</li>
+    </ul>
+    </li>
+
+
+
+
+</ul>
+</div>
+</section>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="images/img1.jpeg" style="width:100%;height:485px">
+    </div>
+
+  <div class="mySlides fade">
+    <img src="images/img2.jpeg" style="width:100%;height:485px">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/img3.jpeg" style="width:100%;height:485px">
+  </div>
+
+</div>
+<br>
+
+<!-- The dots/circles
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>-->
+
+<!---------------Featured Categories-------------->
+<section class="featured-categories">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="images/categories4.jpeg">
+      </div>
+      <div class="col-md-4">
+        <img src="images/categories2.jpeg">
+      </div>
+      <div class="col-md-4">
+        <img src="images/categories5.jpeg">
+      </div>
+    </div>
+  </div>
+</section>
+<!---------------On Sale Product-------------->
+<section class="on-sale">
+
+  <div class="container">
+    <div class="title-box">
+    <h2 style="background-color: yellow;"> On Sale</h2>
+
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="Product-top">
+          <img src="images/product1.jpeg" style="width:200px;height:250px;">
+          <div class="overlay-right">
+            <button type="button" class="btn btn-secondary" title="Quick Shop">
+              <i class="fa fa-eye"></i>
+            </button>
+            <button type="button" class="btn btn-secondary" title="Add to wishlist">
+              <i class="fa fa-heart-o"></i>
+            </button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart">
+              <i class="fa fa-shopping-cart"></i>
+            </button>
+            </div>
+
+          </div>
+          <div class="Product-bottom text-center">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <h3>Fitness Watch</h3>
+            <h5>Price &#8377; 25000 </h5>
+
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="Product-top">
+            <img src="images/product2.jpeg" style="width:200px;height:250px;">
+            <div class="overlay-right">
+              <button type="button" class="btn btn-secondary" title="Quick Shop">
+                <i class="fa fa-eye"></i>
+              </button>
+              <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                <i class="fa fa-heart-o"></i>
+              </button>
+              <button type="button" class="btn btn-secondary" title="Add to Cart">
+                <i class="fa fa-shopping-cart"></i>
+              </button>
+              </div>
+
+            </div>
+            <div class="Product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <h3>Iphone 10s</h3>
+              <h5>Price &#8377; 43990 </h5>
+
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="Product-top">
+              <img src="images/product5.jpeg" style="width:200px;height:250px;">
+              <div class="overlay-right">
+                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                  <i class="fa fa-eye"></i>
+                </button>
+                <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                  <i class="fa fa-heart-o"></i>
+                </button>
+                <button type="button" class="btn btn-secondary" title="Add to Cart">
+                  <i class="fa fa-shopping-cart"></i>
+                </button>
+                </div>
+
+              </div>
+              <div class="Product-bottom text-center">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <h3>Air Pods</h3>
+                <h5>Price &#8377; 12000</h5>
+
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="Product-top">
+                <img src="images/product4.jpeg" style="width:200px;height:250px;">
+                <div class="overlay-right">
+                  <button type="button" class="btn btn-secondary" title="Quick Shop">
+                    <i class="fa fa-eye"></i>
+                  </button>
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                    <i class="fa fa-heart-o"></i>
+                  </button>
+                  <button type="button" class="btn btn-secondary" title="Add to Cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
+                  </div>
+
+                </div>
+                <div class="Product-bottom text-center">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+
+                  <h3>Formal Shoes</h3>
+                  <h5>Price &#8377; 3500 </h5>
+
+                </div>
+              </div>
+
+      </div>
+    </div>
+
+
+</section>
+<!---------------New Products---------->
+<section class="New-Products">
+  <div class="container">
+    <div class="title-box2">
+    <h2 style="background-color: yellow;">New Arrivals</h2>
+
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="Product-top">
+          <a href="product.html"><img src="images/product3.jpeg" style="width:200px;height:250px;"></a>
+          <div class="overlay-right">
+            <button type="button" class="btn btn-secondary" title="Quick Shop">
+              <i class="fa fa-eye"></i>
+            </button>
+            <button type="button" class="btn btn-secondary" title="Add to wishlist">
+              <i class="fa fa-heart-o"></i>
+            </button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart">
+              <i class="fa fa-shopping-cart"></i>
+            </button>
+            </div>
+
+          </div>
+          <div class="Product-bottom text-center">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <h3>Air Pods Max</h3>
+            <h5>Price &#8377; 35000 </h5>
+
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="Product-top">
+            <a href="product.html"><img src="images/product6.jpeg" style="width:200px;height:250px;"></a>
+            <div class="overlay-right">
+              <button type="button" class="btn btn-secondary" title="Quick Shop">
+                <i class="fa fa-eye"></i>
+              </button>
+              <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                <i class="fa fa-heart-o"></i>
+              </button>
+              <button type="button" class="btn btn-secondary" title="Add to Cart">
+                <i class="fa fa-shopping-cart"></i>
+              </button>
+              </div>
+
+            </div>
+            <div class="Product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <h3>Iphone 12 Pro Max</h3>
+              <h5>Price &#8377; 125000 </h5>
+
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="Product-top">
+              <a href="product.html"><img src="images/product7.jpeg" style="width:200px;height:250px;"></a>
+              <div class="overlay-right">
+                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                  <i class="fa fa-eye"></i>
+                </button>
+                <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                  <i class="fa fa-heart-o"></i>
+                </button>
+                <button type="button" class="btn btn-secondary" title="Add to Cart">
+                  <i class="fa fa-shopping-cart"></i>
+                </button>
+                </div>
+
+              </div>
+              <div class="Product-bottom text-center">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <h3>Ps5</h3>
+                <h5>Price &#8377; 65000</h5>
+
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="Product-top">
+                <a href="product.html"><img src="images/product8.jpeg" style="width:200px;height:250px;"></a>
+                <div class="overlay-right">
+                  <button type="button" class="btn btn-secondary" title="Quick Shop">
+                    <i class="fa fa-eye"></i>
+                  </button>
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                    <i class="fa fa-heart-o"></i>
+                  </button>
+                  <button type="button" class="btn btn-secondary" title="Add to Cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
+                  </div>
+
+                </div>
+                <div class="Product-bottom text-center">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+
+                  <h3>Galaxy S21 Ultra</h3>
+                  <h5>Price &#8377; 129000 </h5>
+
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="Product-top">
+                  <a href="product.html"><img src="images/product9.jpeg" style="width:200px;height:250px;"></a>
+                  <div class="overlay-right">
+                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                      <i class="fa fa-eye"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                      <i class="fa fa-heart-o"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="Add to Cart">
+                      <i class="fa fa-shopping-cart"></i>
+                    </button>
+                    </div>
+
+                  </div>
+                  <div class="Product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h3>Air Pods Pro</h3>
+                    <h5>Price &#8377; 25000 </h5>
+
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="Product-top">
+                    <a href="product.html"><img src="images/product10.jpeg" style="width:200px;height:250px;"></a>
+                    <div class="overlay-right">
+                      <button type="button" class="btn btn-secondary" title="Quick Shop">
+                        <i class="fa fa-eye"></i>
+                      </button>
+                      <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                        <i class="fa fa-heart-o"></i>
+                      </button>
+                      <button type="button" class="btn btn-secondary" title="Add to Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                      </button>
+                      </div>
+
+                    </div>
+                    <div class="Product-bottom text-center">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <h3>Xbox Series X</h3>
+                      <h5>Price &#8377; 47990 </h5>
+
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="Product-top">
+                      <a href="product.html"><img src="images/product12.jpeg" style="width:200px;height:250px;"></a>
+                      <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="Quick Shop">
+                          <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                          <i class="fa fa-heart-o"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="Add to Cart">
+                          <i class="fa fa-shopping-cart"></i>
+                        </button>
+                        </div>
+
+                      </div>
+                      <div class="Product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <h3>Samsung Smart Fridge</h3>
+                        <h5>Price &#8377; 120000</h5>
+
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="Product-top">
+                        <a href="product.html"><img src="images/product11.jpeg" style="width:200px;height:250px;"></a>
+                        <div class="overlay-right">
+                          <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                          </button>
+                          <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                            <i class="fa fa-heart-o"></i>
+                          </button>
+                          <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+                          </button>
+                          </div>
+
+                        </div>
+                        <div class="Product-bottom text-center">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+
+                          <h3>Samsung smart Tv</h3>
+                          <h5>Price &#8377; 71000 </h5>
+
+                        </div>
+                      </div>
+
+
+      </div>
+    </div>
+
+</section>
+<!----------Website features----------->
+<section class="website-features">
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 feature-box">
+      <img src="images/features1.jpeg"style="width:80px;height:65px;">
+      <div class="feature-text">
+        <p><b>100% original items</b>are available at company</p>
+      </div>
+    </div>
+    <div class="col-md-3 feature-box">
+      <img src="images/features2.jpeg"style="width:80px;height:65px;">
+      <div class="feature-text">
+        <p><b>retun within 30 days</b>Easy refunds</p>
+      </div>
+    </div>
+    <div class="col-md-3 feature-box">
+      <img src="images/features3.jpeg"style="width:80px;height:65px;">
+      <div class="feature-text">
+        <p><b>free delivery</b>on orders above 500</p>
+      </div>
+    </div>
+    <div class="col-md-3 feature-box">
+      <img src="images/features4.jpeg"style="width:80px;height:65px;">
+      <div class="feature-text">
+        <p><b>Pay online</b>through any UPI/netbanking</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</section>
+<!----------Footer----------->
+<section class="footer">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-3">
+        <h1>Useful links</h1>
+        <p>Privacy Policy</p>
+        <p>Terms of use</p>
+        <p>Return Policy</p>
+        <p>Coupon</p>
+      </div>
+      <div class="col-md-3">
+        <h1>Company</h1>
+        <p>About us</p>
+        <p>Contact us</p>
+        <p>Career</p>
+        <p>Affiliate</p>
+      </div>
+      <div class="col-md-3">
+        <h1>Follow us on</h1>
+        <p><i class="fa fa-facebook-official"></i> Facebook</p>
+        <p><i class="fa fa-twitter"></i> Twitter</p>
+        <p><i class="fa fa-linkedin"></i> LinkedIn</p>
+        <p><i class="fa fa-youtube-play"></i> YouTube</p>
+      </div>
+      <div class="col-md-3 footer-image">
+        <h1>Download App</h1>
+        <img src="images/App-Store-and-Google-play.jpeg" style="height: 80px">
+      </div>
+
+    </div>
+    <hr>
+    <p class="= copyright">Made with <i class="fa fa-heart-o"></i> By Sanidhya Mahna</p>
+  </hr>
+  </div>
+</section>
+
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+function openmenu(){
+  document.getElementById("side-menu").style.display="block";
+  document.getElementById("menu-btn").style.display="none";
+  document.getElementById("close-btn").style.display="block";
+}
+function closemenu(){
+  document.getElementById("side-menu").style.display="none";
+  document.getElementById("menu-btn").style.display="block";
+  document.getElementById("close-btn").style.display="none";
+}
+</script>
+
+
+
+
+</body>
+</html>
